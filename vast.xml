@@ -23,7 +23,7 @@
 </AdParameters>
 <MediaFiles>
 <MediaFile delivery="progressive" type="application/javascript" width="16" height="9" apiFramework="VPAID">
-<![CDATA[ https://vasttester.iabtechlab.com/fixtures/vpaid/vpaid-example.js ]]>
+<![CDATA[ https://github.com/BLFabian/VPAIDTest/blob/main/vpaid.js ]]>
 </MediaFile>
 <MediaFile delivery="progressive" type="video/webm" width="640" height="360">
 <![CDATA[ https://vasttester.iabtechlab.com/fixtures/video/360p30.webm ]]>
