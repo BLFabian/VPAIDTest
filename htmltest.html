@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAST Tag Preview</title>
+    <script src="https://cdn.jwplayer.com/libraries/YOUR_LIBRARY_KEY.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+        }
+        #player {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="player"></div>
+    <script>
+        jwplayer("player").setup({
+            advertising: {
+                client: "vast",
+                tag: "https://raw.githubusercontent.com/BLFabian/VPAIDTest/refs/heads/main/vast2.xml"
+            },
+            file: "https://cdn.jwplayer.com/manifests/yp34SRmf.m3u8",  /* Placeholder video */
+            width: "100%",
+            height: "100%",
+            autostart: true
+        });
+    </script>
+</body>
+</html>
